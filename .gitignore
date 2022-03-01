@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# CMake build on vscode
+[Bb]uild/
+
+# local imgui runtime config
+imgui.ini
