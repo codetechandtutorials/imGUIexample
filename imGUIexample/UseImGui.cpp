@@ -39,7 +39,8 @@ void render_conan_logo()
 
 
 void UseImGui::Update() {
-	ImGui::Begin("Hello, world!");                          // Create a window called "Hello, world!" and append into it.
+	ImGui::Begin("Conan Logo");                          // Create a window called "Conan Logo" and append into it.
+	render_conan_logo();  // draw conan logo if user didn't override update
 	ImGui::End();
 
 
